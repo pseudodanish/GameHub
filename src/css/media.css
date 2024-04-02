@@ -1,0 +1,1462 @@
+@media (max-width: 1440px) {
+    /* ========================HOMEPAGE STARTS==================== */
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding: 13px 15px !important;
+    }
+
+    header nav.navbar .navbar-brand img {
+        height: 30px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        font-size: 55px;
+    }
+
+    .main-slider .swiper-slide .text p {
+        font-size: 19px;
+    }
+
+    .thumbs {
+        width: 25%;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================PLAY GAMES STARTS==================== */
+    .sub-banner .particles span:nth-child(3n+2) {
+        display: none;
+        width: 15px;
+        height: 15px;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 350px;
+        height: 350px;
+        align-items: center;
+        right: 10px;
+    }
+
+    /* ========================PLAY GAMES ENDS==================== */
+}
+
+@media (min-width: 1200px) {
+    /* ========================HOMEPAGE STARTS==================== */
+
+    header ul.navbar-nav .dropdown .dropdown-menu {
+        background-color: #fff;
+        border: none;
+        margin-top: 0px;
+        padding: 0px;
+        border-left: 5px solid #ff4655;
+        /* overflow: hidden; */
+        border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    /* header ul.navbar-nav .dropdown .dropdown-menu[data-bs-popper] {
+        left: 25px;
+        transform: translateX(-0%);
+    }
+    header ul.navbar-nav .dropdown:hover .dropdown-menu[data-bs-popper] {
+        
+    } */
+
+    header ul.navbar-nav .dropdown .dropdown-item {
+        padding: 0px 24px;
+        line-height: 50px;
+        color: #292F36;
+    }
+
+    header ul.navbar-nav .dropdown-item:focus,
+    header ul.navbar-nav .dropdown-item:hover,
+    header ul.navbar-nav .dropdown-item.active {
+        color: #fff !important;
+        background-color: #ff4655;
+    }
+
+    header ul.navbar-nav .dropend .dropdown-toggle::after {
+        margin-left: 8px !important;
+    }
+
+    header ul.navbar-nav .dropdown .dropdown-divider {
+        margin: 0px;
+        border-top: 1px solid #ff4655;
+    }
+
+    .navbar-expand-xl .offcanvas-content {
+        display: flex;
+        width: 100%;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-1:hover .dropdown-menu-1 {
+        display: block;
+    }
+
+    .dropdown-2:hover .dropdown-menu-2 {
+        display: block;
+    }
+
+    .dropdown-menu-1 {
+        left: 100%;
+        top: 0px;
+    }
+
+    .dropdown-menu-2 {
+        left: 100%;
+        top: 0px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+}
+
+@media (max-width: 1200px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    header {
+        width: 100%;
+        left: 0;
+    }
+
+    header nav.navbar {
+        border-radius: 0px;
+        background-color: #ffffff;
+        padding: 13px;
+        width: 100%;
+    }
+
+    header nav .navbar-toggler {
+        border: none;
+        color: #292F36;
+        transition: transform 0.3s ease;
+    }
+
+    header nav .navbar-toggler:focus {
+        border: none;
+        box-shadow: none;
+    }
+
+    header nav .navbar-toggler:active {
+        color: #ff4655;
+    }
+
+    header nav .navbar-toggler .toggle-icon {
+        display: block;
+        height: 3px;
+        background: #292F36;
+        border-radius: 5px;
+        transition: all .6s;
+        width: 30px;
+    }
+
+    header nav .navbar-toggler .toggle-topbar {
+        transform: translateX(-1px);
+        transition-delay: .12s;
+        background: #ff4655;
+    }
+
+    header nav .navbar-toggler .toggle-middlebar {
+        transform: translateX(1px);
+        transition-delay: .12s;
+        background: #ff4655;
+        margin: 5px;
+    }
+
+    header nav .navbar-toggler .toggle-bottombar {
+        transform: translateX(-1px);
+        transition-delay: .12s;
+        background: #ff4655;
+    }
+
+    header nav.navbar .mobile-logo {
+        display: block;
+        width: 180px;
+    }
+
+    header .head-top {
+        display: none;
+    }
+
+    header .navbar-nav {
+        align-items: flex-start;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    header .navbar .offcanvas .offcanvas-content {
+        padding: 16px;
+        position: relative;
+        overflow: scroll;
+    }
+
+    header .navbar .offcanvas .offcanvas-content::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    header .navbar .offcanvas {
+        border-right: 5px solid #ff4655;
+    }
+
+    header .navbar .offcanvas .offcanvas-header {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    header .navbar .offcanvas .btn-close {
+        --bs-btn-close-bg: url('data:image/svg+xml,%3Csvg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="%23ffffff"%3E%3Cg id="SVGRepo_bgCarrier" stroke-width="0"%3E%3C/g%3E%3Cg id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"%3E%3C/g%3E%3Cg id="SVGRepo_iconCarrier"%3E%3Cpath fill="%23ffffff" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"%3E%3C/path%3E%3C/g%3E%3C/svg%3E');
+        position: absolute;
+        right: -17px;
+        top: 20px;
+        background-color: #ff4655;
+        opacity: 1;
+        padding: 7px;
+    }
+
+    header .navbar .offcanvas .btn-close:focus {
+        box-shadow: none;
+    }
+
+    header .navbar-nav .dropdown .dropdown-toggle {
+        position: relative;
+    }
+
+    header .navbar-nav .dropdown .dropdown-toggle::after {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        margin: 0px;
+        height: 24px;
+        content: url(../images/nav-dropdown-mobile-icon-close.svg);
+    }
+
+    header .navbar-nav .dropdown .dropdown-toggle.show::after {
+        content: url(../images/nav-dropdown-mobile-icon-open.svg);
+    }
+
+    header nav.navbar .offcanvas-header .mobile-logo {
+        margin: auto;
+    }
+
+    header .navbar-nav .nav-item.send-inquiry-cst {
+        align-self: center;
+        margin-top: 20px;
+        border-bottom: none;
+    }
+
+    header .navbar-nav .dropdown .dropdown-item {
+        padding: 12px 0px 12px 10px !important;
+        border-top: 1px solid #ff4655;
+        white-space: unset;
+    }
+
+    header .navbar-nav .dropdown .dropdown-item.show {
+        color: #ff4655;
+    }
+
+    header .navbar-nav .dropdown .dropdown-item:focus {
+        background-color: transparent;
+    }
+
+    header .navbar-nav .dropdown .dropdown-item:hover {
+        background-color: transparent;
+    }
+
+    /* header .navbar-nav .dropdown .dropdown-toggle.dropdown-item {
+        pointer-events: none;
+    } */
+
+    header ul.navbar-nav .dropdown .dropdown-menu-1 {
+        padding-left: 10px !important;
+    }
+
+    header ul.navbar-nav .dropdown .dropdown-menu-2 {
+        padding-left: 20px !important;
+    }
+
+    header .navbar-nav .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #ff4655;
+    }
+
+    header .navbar-nav a.nav-link {
+        padding: 12px 0px 12px !important;
+    }
+
+    header .navbar-nav .nav-link.round-cst-btn {
+        padding: 10px 16px !important;
+    }
+
+    header ul.navbar-nav .dropdown .dropdown-menu {
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+    }
+
+    .thumbs {
+        display: none;
+    }
+
+    .footer img {
+        margin-left: 450px;
+    }
+
+    .knock-off .quote-info {
+        height: 38%;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        font-size: 50px;
+    }
+
+    .main-slider .swiper-slide .text p {
+        font-size: 17px;
+    }
+
+    .common-med-para1 {
+        font-size: 18px;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 26px;
+    }
+
+    .top-agents .row .agent .agent-info .common-small-para1 {
+        font-size: 16px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================PLAY GAMES STARTS==================== */
+    .sub-banner .particles span:nth-child(8n+6) {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 350px;
+        height: 350px;
+        align-items: center;
+        right: 10px;
+    }
+
+    /* ========================PLAY GAMES ENDS==================== */
+}
+
+@media (max-width: 1040px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    .footer img {
+        margin-left: 365px;
+    }
+
+    .main-slider .swiper-slide .text {
+        position: absolute;
+        left: 25%;
+        top: 40%;
+        bottom: 25%;
+        background: #000000a8;
+        padding: 40px;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        color: #ff4655;
+    }
+
+    .common-large-para1 {
+        font-size: 18px;
+    }
+
+    .common-head1 {
+        font-size: 60px;
+    }
+
+    .knock-off .common-large-para1 {
+        padding: 0 78px;
+    }
+
+    .knock-off .quote-info {
+        height: 50%;
+    }
+
+    .knock-off .quote-info .common-display-text {
+        font-size: 70px;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 26px;
+    }
+
+    .quests .row .quest-info .common-med-para1 {
+        font-size: 18px;
+    }
+
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================PLAY GAMES STARTS==================== */
+    .sub-banner .particles span:nth-child(2n+2),
+    .sub-banner .particles span:nth-child(8n+6) {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: flex;
+        padding: 80px;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 0px;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 320px;
+        height: 320px;
+        top: 50px;
+        left: 500px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 35px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .play-games .play-area {
+        height: 80vh;
+    }
+
+    /* ========================PLAY GAMES ENDS==================== */
+}
+
+@media (max-width: 992px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    header nav.navbar .mobile-logo {
+        width: 150px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .footer img {
+        margin-left: 330px;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 25px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================PLAY GAMES STARTS==================== */
+    .sub-banner .particles span:nth-child(2n+2),
+    .sub-banner .particles span:nth-child(8n+6),
+    .sub-banner .particles span:nth-child(7n+4) {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: flex;
+        padding: 80px;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 0px;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 290px;
+        height: 290px;
+        top: 50px;
+        left: 500px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 25px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .play-games .play-area {
+        height: 60vh;
+        gap: 40px;
+        padding: 50px;
+    }
+
+    /* ========================PLAY GAMES ENDS==================== */
+}
+
+@media (max-width: 768px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    header nav.navbar .mobile-logo {
+        width: 120px;
+    }
+
+    header nav.navbar {
+        padding: 10px;
+    }
+
+    .navbar-toggler {
+        padding: 0px;
+    }
+
+    header nav.navbar .navbar-brand img {
+        height: 25px;
+    }
+
+    .preloader-box {
+        left: 42%;
+    }
+
+    .footer {
+        padding: 25px;
+        padding-bottom: 20px;
+    }
+
+    .footer .example-1 {
+        margin-top: 35px;
+        gap: 45px;
+    }
+
+    .footer img {
+        margin-left: 240px;
+    }
+
+    .footer .common-large-para1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .footer .terms {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 10px;
+    }
+
+    .footer .terms .common-med-para1 {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================Games PAges STARTS==================== */
+    .sub-banner .particles span:nth-child(2n+3),
+    .sub-banner .particles span:nth-child(8n+6),
+    .sub-banner .particles span:nth-child(7n+4) {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: flex;
+        padding: 80px;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 0px;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 250px;
+        height: 250px;
+        top: 50px;
+        left: 370px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 25px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .play-games .play-area {
+        margin-top: 40px;
+        height: 100vh;
+        display: flex;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    /* ========================Games PAges ENDS==================== */
+
+}
+
+@media (max-width: 576px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    .preloader-box {
+        left: 42%;
+    }
+
+    .main-slider .swiper-slide img {
+        right: 20%;
+        height: 70vh;
+    }
+
+    .main-slider .swiper-slide .text {
+        top: 20%;
+        left: 10%;
+        background-color: transparent;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        font-size: 40px;
+        color: #111a23;
+    }
+
+    .main-slider .swiper-slide .text p {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .common-head1 {
+        font-size: 35px;
+    }
+
+    .common-large-para1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .knock-off {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .knock-off img {
+        margin: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .knock-off .common-large-para1 {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .knock-off .quote-info .common-head1 {
+        font-size: 26px;
+    }
+
+    .knock-off .quote-info {
+        height: 93%;
+        position: absolute;
+        width: 100%;
+        bottom: -100%;
+        left: 0px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .knock-off .quote-info .common-display-text {
+        display: none;
+    }
+
+    .knock-off .quote-info .common-med-para1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .top-agents {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .top-agents .common-large-para1 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .top-agents .row {
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .top-agents .row .agent {
+        width: 45%;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 20px;
+    }
+
+    .top-agents .row .agent .agent-info .common-small-para1 {
+        font-size: 14px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .quests {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .quests .row {
+        margin-top: 25px;
+        row-gap: 50px;
+    }
+
+    .quests .row .quest-info {
+        border: 1px solid #fff;
+        /* border-top: none; */
+        padding: 15px;
+    }
+
+    .quests .row .quest-info .common-head3 {
+        color: #ff4655;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .quests .row .quest-info .common-med-para1 {
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .quests .row .quest-img img {
+        width: 100%;
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-info:nth-child(3) {
+        border: 1px solid #fff;
+        padding: 15px;
+        order: 2;
+    }
+
+    .quests .row .quest-img:nth-child(4) img {
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-img:nth-child(4) {
+        order: 1;
+    }
+
+    .quests .row .quest-img figure {
+        margin: 0;
+    }
+
+    .questions {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .questions .common-large-para1 {
+        margin-top: 15px;
+    }
+
+    .questions .accordion-flush {
+        margin-top: 20px;
+    }
+
+    .questions .accordion-button {
+        padding: 25px 15px 25px 45px;
+        font-size: 15px;
+    }
+
+    .questions .accordion-button::after {
+        left: 13px;
+        padding: 11px;
+    }
+
+    .footer {
+        padding: 25px;
+        padding-bottom: 20px;
+    }
+
+    .footer .example-1 {
+        margin-top: 30px;
+        gap: 15px;
+    }
+
+    .footer img {
+        margin-left: 160px;
+    }
+
+    .footer .common-large-para1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .footer .terms {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 10px;
+    }
+
+    .footer .terms .common-med-para1 {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================Games PAges STARTS==================== */
+    .sub-banner .particles span {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: block;
+        padding: 40px;
+        margin-top: 20px;
+    }
+
+    .sub-banner .content-wrapper .content-desc {
+        padding-top: 60px;
+        margin-bottom: 15px;
+    }
+
+    .sub-banner .content-wrapper .content-desc h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .sub-banner .content-wrapper .content-desc p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .sub-banner .content-wrapper .content-desc .challenge-btn {
+        width: 250px;
+        position: relative;
+        left: 100px;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 270px;
+        height: 270px;
+        top: 200px;
+        left: 110px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 25px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .play-games .play-area {
+        margin-top: 40px;
+        height: 100vh;
+        display: flex;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    /* ========================Games PAges ENDS==================== */
+
+}
+
+@media (max-width: 440px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    .preloader .common-head1 {
+        position: relative;
+        left: -2%;
+        top: 19%;
+    }
+
+    .preloader-box {
+        left: 32%;
+    }
+
+    .main-slider .swiper-slide img {
+        right: 20%;
+        height: 40vh;
+    }
+
+    .main-slider .swiper-slide .text {
+        top: 20%;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        font-size: 40px;
+    }
+
+    .main-slider .swiper-slide .text p {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .common-head1 {
+        font-size: 35px;
+    }
+
+    .common-large-para1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .knock-off {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .knock-off img {
+        margin: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .knock-off .common-large-para1 {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .knock-off .quote-info .common-head1 {
+        font-size: 26px;
+    }
+
+    .knock-off .quote-info {
+        height: 93%;
+        position: absolute;
+        width: 100%;
+        bottom: -100%;
+        left: 0px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .knock-off .quote-info .common-display-text {
+        display: none;
+    }
+
+    .knock-off .quote-info .common-med-para1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .top-agents {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .top-agents .common-large-para1 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .top-agents .row {
+        margin-top: 20px;
+        row-gap: 50px;
+    }
+
+    .top-agents .row .agent {
+        width: 80%;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 20px;
+    }
+
+    .top-agents .row .agent .agent-info .common-small-para1 {
+        font-size: 14px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .quests {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .quests .row {
+        margin-top: 25px;
+        row-gap: 50px;
+    }
+
+    .quests .row .quest-info {
+        border: 1px solid #fff;
+        /* border-top: none; */
+        padding: 15px;
+    }
+
+    .quests .row .quest-info .common-head3 {
+        color: #ff4655;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .quests .row .quest-info .common-med-para1 {
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .quests .row .quest-img img {
+        width: 100%;
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-info:nth-child(3) {
+        border: 1px solid #fff;
+        padding: 15px;
+        order: 2;
+    }
+
+    .quests .row .quest-img:nth-child(4) img {
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-img:nth-child(4) {
+        order: 1;
+    }
+
+    .quests .row .quest-img figure {
+        margin: 0;
+    }
+
+    .questions {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .questions .common-large-para1 {
+        margin-top: 15px;
+    }
+
+    .questions .accordion-flush {
+        margin-top: 20px;
+    }
+
+    .questions .accordion-button {
+        padding: 25px 15px 25px 45px;
+        font-size: 15px;
+    }
+
+    .questions .accordion-button::after {
+        left: 13px;
+        padding: 11px;
+    }
+
+    .footer {
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+
+    .footer .example-1 {
+        margin-top: 30px;
+        gap: 15px;
+    }
+
+    .footer img {
+        margin-top: 37px;
+        width: 200px;
+        margin-left: 108px;
+    }
+
+    .footer .common-large-para1 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .footer .terms {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 10px;
+    }
+
+    .footer .terms .common-med-para1 {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================Games PAges STARTS==================== */
+    .sub-banner .particles span {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: block;
+        padding: 25px;
+        margin-top: 20px;
+    }
+
+    .sub-banner .content-wrapper .content-desc {
+        padding-top: 80px;
+    }
+
+    .sub-banner .content-wrapper .content-desc h1 {
+        font-size: 36px;
+    }
+
+    .sub-banner .content-wrapper .content-desc p {
+        width: 365px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .sub-banner .content-wrapper .content-desc .challenge-btn {
+        width: 250px;
+        height: 3.5vh;
+        font-size: 1.2rem;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 250px;
+        height: 250px;
+        top: 200px;
+        left: 60px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 20px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 3px;
+        margin-top: 15px;
+        font-size: 45px;
+    }
+
+    .play-games .play-area .games {
+        padding: 5px;
+    }
+
+    .play-games .play-area {
+        align-items: center;
+        margin-top: 30px;
+        height: 100vh;
+        gap: 30px;
+        row-gap: 10px;
+        display: flex;
+        padding: 20px;
+    }
+}
+
+/* ========================Games PAges Ends==================== */
+
+@media (max-width: 320px) {
+
+    /* ========================HOMEPAGE STARTS==================== */
+    .preloader .common-head1 {
+        position: relative;
+        left: -2%;
+        top: 19%;
+    }
+
+    .preloader-box {
+        left: 32%;
+    }
+
+    .main-slider .swiper-slide img {
+        right: 20%;
+        height: 40vh;
+    }
+
+    .main-slider .swiper-slide .text {
+        top: 20%;
+    }
+
+    .main-slider .swiper-slide .text h2 {
+        font-size: 40px;
+    }
+
+    .main-slider .swiper-slide .text p {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .common-head1 {
+        font-size: 35px;
+    }
+
+    .common-large-para1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .knock-off {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .knock-off img {
+        margin: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .knock-off .common-large-para1 {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .knock-off .quote-info .common-head1 {
+        font-size: 26px;
+    }
+
+    .knock-off .quote-info {
+        height: 93%;
+        position: absolute;
+        width: 100%;
+        bottom: -100%;
+        left: 0px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+    .knock-off .quote-info .common-display-text {
+        display: none;
+    }
+
+    .knock-off .quote-info .common-med-para1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .top-agents {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .top-agents .common-large-para1 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .top-agents .row {
+        margin-top: 20px;
+        row-gap: 50px;
+    }
+
+    .top-agents .row .agent {
+        width: 80%;
+    }
+
+    .top-agents .row .agent .agent-info .common-head3 {
+        font-size: 20px;
+    }
+
+    .top-agents .row .agent .agent-info .common-small-para1 {
+        font-size: 14px;
+        margin: 0;
+        line-height: 20px;
+    }
+
+    .quests {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .quests .row {
+        margin-top: 25px;
+        row-gap: 50px;
+    }
+
+    .quests .row .quest-info {
+        border: 1px solid #fff;
+        /* border-top: none; */
+        padding: 15px;
+    }
+
+    .quests .row .quest-info .common-head3 {
+        color: #ff4655;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .quests .row .quest-info .common-med-para1 {
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .quests .row .quest-img img {
+        width: 100%;
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-info:nth-child(3) {
+        border: 1px solid #fff;
+        padding: 15px;
+        order: 2;
+    }
+
+    .quests .row .quest-img:nth-child(4) img {
+        background: linear-gradient(#fff, #111a23);
+    }
+
+    .quests .row .quest-img:nth-child(4) {
+        order: 1;
+    }
+
+    .quests .row .quest-img figure {
+        margin: 0;
+    }
+
+    .questions {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .questions .common-large-para1 {
+        margin-top: 15px;
+    }
+
+    .questions .accordion-flush {
+        margin-top: 20px;
+    }
+
+    .questions .accordion-button {
+        padding: 25px 15px 25px 45px;
+        font-size: 15px;
+    }
+
+    .questions .accordion-button::after {
+        left: 13px;
+        padding: 11px;
+    }
+
+    .footer {
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+
+    .footer .example-1 {
+        margin-top: 25px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+
+    .footer img {
+        margin-top: 35px;
+        width: 190px;
+        margin-left: 48px;
+    }
+
+    .footer .common-large-para1 {
+        margin-top: 20px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .footer .terms {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 10px;
+    }
+
+    .footer .terms .common-med-para1 {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    /* ========================HOMEPAGE ENDS==================== */
+
+    /* ========================Games PAges STARTS==================== */
+    .sub-banner .particles span {
+        display: none;
+    }
+
+    .sub-banner .content-wrapper {
+        display: block;
+        padding: 15px;
+        margin-top: 0px;
+    }
+
+    .sub-banner .content-wrapper .content-desc {
+        padding-top: 80px;
+    }
+
+    .sub-banner .content-wrapper .content-desc h1 {
+        font-size: 32px;
+    }
+
+    .sub-banner .content-wrapper .content-desc p {
+        width: 265px;
+        font-size: 01rem;
+        line-height: 1.5rem;
+    }
+
+    .sub-banner .content-wrapper .content-desc .challenge-btn {
+        width: 160px;
+        height: 3vh;
+        font-size: 0.8rem;
+    }
+
+    .sub-banner .content-wrapper .rakuto {
+        width: 200px;
+        height: 200px;
+        top: 180px;
+        left: 50px;
+    }
+
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::before,
+    .sub-banner .content-wrapper .rakuto:hover .wrapper::after {
+        opacity: 0;
+    }
+
+    .play-games {
+        padding: 20px;
+    }
+
+    .play-games .common-head1 {
+        margin-left: 5px;
+    }
+
+    .play-games .play-area {
+        align-items: center;
+        margin-top: 20px;
+        height: 100vh;
+        display: flex;
+        padding: 50px;
+    }
+
+    /* ========================Games PAges Ends==================== */
+}

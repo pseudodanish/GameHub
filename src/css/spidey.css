@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: "Exo 2", sans-serif;
+}
+
+.main-slider {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #C54542;
+    position: relative;
+    margin-top: -25px;
+}
+
+.main-slider .swiper-slide {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: none;
+    position: relative;
+}
+
+.main-slider .swiper-slide img {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    height: 85vh;
+    object-fit: contain;
+}
+
+.main-slider .swiper-slide .text {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.main-slider .swiper-slide .text h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #111a23;
+}
+
+.main-slider .swiper-slide .text h2 span {
+    color: #fff;
+    text-shadow: 0 0px #111a23, 0 0 10px #111a23;
+}
+
+.main-slider .swiper-slide .text p {
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-slider .swiper-slide .spider {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    bottom: -15%;
+    right: -39%;
+}
+
+.spider img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(2.5);
+}
+
+.main-slider .swiper-button-next::after,
+.main-slider .swiper-button-prev::after {
+    display: none;
+}
+
+.main-slider .swiper-button-next,
+.main-slider .swiper-button-prev {
+    color: #fff;
+    font-size: 100px;
+}
+
+.main-slider .swiper-button-prev {
+    left: 40px;
+}
+
+.main-slider .swiper-button-next {
+    right: 40px;
+}
+
+.container {
+    position: relative;
+}
+
+.thumbs {
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    bottom: 8%;
+    right: 20px;
+    z-index: 90;
+    padding: 20px;
+    padding-left: 0;
+    border-bottom: 1px solid #000;
+}
+
+.thumbs .swiper-slide {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #266598;
+}
+
+.thumbs .swiper-slide:nth-child(2) {
+    background: #832e2c;
+}
+
+.thumbs .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.thumbs .number {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: -20px;
+    left: 35%;
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 100;
+    opacity: 0.7;
+}
