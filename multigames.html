@@ -1,0 +1,361 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>GameHub</title>
+    <link rel="icon" href="src/images/title-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/spidey.css" type="text/css">
+    <link rel="stylesheet" href="src/css/style.css" type="text/css">
+    <link rel="stylesheet" href="src/css/media.css" type="text/css">
+</head>
+
+<body>
+    <!-- Preloader Starts -->
+    <div class="preloader" id="preloader">
+        <div class="container">
+            <h2 class="common-head1" style="color:#111a23;">LOADING</h2>
+            <br>
+            <ul class="preloader-box">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!-- preloader ends -->
+    <!-- --------- HEADER START --------- -->
+    <header>
+        <div class="head-top">
+            <div class="hstack gap-md-5 gap-3 flex-column flex-md-row">
+                <div class="mx-auto">
+                    <a href="tel:+91 75673 90957" class="head-top-link">
+                        <img src="src/images/head-top-call-icon.svg" alt="image not found">
+                        <span>+91 75673 90957</span>
+                    </a>
+                </div>
+                <div class="vr opacity-100 d-none d-md-block" style="color: #CDC1C1;"></div>
+                <div class="mx-auto">
+                    <a href="mailto:gameboy@gmail.com" class="head-top-link">
+                        <img src="src/images/head-top-mail-icon.svg" alt="image not found">
+                        <span>gameboy@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid">
+                <a class="navbar-brand mobile-logo" href="index.html"><img src="src/images/Logo2.png" class="img-fluid"
+                        alt="image not found"></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" name="toggle">
+                    <span class="toggle-topbar toggle-icon"></span>
+                    <span class="toggle-middlebar toggle-icon"></span>
+                    <span class="toggle-bottombar toggle-icon"></span>
+                </button>
+
+
+                <div class="offcanvas offcanvas-start flex-xl-row" id="offcanvasExample">
+                    <button type="button" class="btn-close d-xl-none d-block" data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvasResponsive" aria-label="Close" name="close"></button>
+                    <div class="offcanvas-content">
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand mobile-logo" href="index.html"><img src="src/images/Logo2.png"
+                                    class="img-fluid" alt="image not found"></a>
+                        </div>
+
+                        <ul class="navbar-nav me-xl-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Profile</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" data-bs-auto-close="outside">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="fungames.html">Fun Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="shootinggames.html">Shooting Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="mysterygames.html">Mystery Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="hostilegames.html">Hostile Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="iqgames.html">IQ Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="boardgames.html">Board Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="guessinggames.html">Guessing
+                                            Games</a>
+                                    </li>
+                                    <li>
+                                        <a class="active dropdown-item" href="multigames.html">Multiplayer Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="navbar-brand d-none d-xl-inline-block m-auto" href="index.html"><img
+                                src="src/images/Logo2.png" alt="image not found" height="50px"></a>
+
+                        <ul class="navbar-nav ms-xl-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="tournaments.html">Tournaments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="stats.html">Leaderboard</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- --------- HEADER END --------- -->
+
+    <!-- =========SUBPAGES BANNER SECTION ======== -->
+    <section class="sub-banner">
+        <div class="particles">
+            <span style="--i:43"></span>
+            <span style="--i:69"></span>
+            <span style="--i:78"></span>
+            <span style="--i:12"></span>
+            <span style="--i:89"></span>
+            <span style="--i:30"></span>
+            <span style="--i:74"></span>
+            <span style="--i:28"></span>
+            <span style="--i:37"></span>
+            <span style="--i:15"></span>
+            <span style="--i:65"></span>
+            <span style="--i:17"></span>
+            <span style="--i:84"></span>
+            <span style="--i:27"></span>
+            <span style="--i:97"></span>
+            <span style="--i:63"></span>
+            <span style="--i:43"></span>
+            <span style="--i:69"></span>
+            <span style="--i:78"></span>
+            <span style="--i:12"></span>
+            <span style="--i:89"></span>
+            <span style="--i:17"></span>
+            <span style="--i:30"></span>
+            <span style="--i:65"></span>
+            <span style="--i:84"></span>
+            <span style="--i:27"></span>
+            <span style="--i:74"></span>
+            <span style="--i:28"></span>
+            <span style="--i:37"></span>
+            <span style="--i:15"></span>
+            <span style="--i:97"></span>
+            <span style="--i:63"></span>
+            <span style="--i:36"></span>
+            <span style="--i:43"></span>
+            <span style="--i:69"></span>
+            <span style="--i:78"></span>
+            <span style="--i:12"></span>
+            <span style="--i:89"></span>
+            <span style="--i:30"></span>
+            <span style="--i:74"></span>
+            <span style="--i:28"></span>
+            <span style="--i:37"></span>
+            <span style="--i:15"></span>
+            <span style="--i:65"></span>
+            <span style="--i:17"></span>
+            <span style="--i:84"></span>
+            <span style="--i:27"></span>
+            <span style="--i:97"></span>
+            <span style="--i:63"></span>
+            <span style="--i:43"></span>
+            <span style="--i:69"></span>
+            <span style="--i:78"></span>
+            <span style="--i:12"></span>
+            <span style="--i:89"></span>
+            <span style="--i:17"></span>
+            <span style="--i:30"></span>
+            <span style="--i:65"></span>
+            <span style="--i:84"></span>
+            <span style="--i:27"></span>
+            <span style="--i:74"></span>
+            <span style="--i:28"></span>
+            <span style="--i:37"></span>
+            <span style="--i:15"></span>
+            <span style="--i:97"></span>
+            <span style="--i:63"></span>
+            <span style="--i:36"></span>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-desc">
+                <h1 class="common-head1">THE GAMER'S <span>Hub</span></h1>
+                <p>Compete with <span>Rakuto</span> in this immense challenge and be the
+                    winner of all Time.</p>
+                <p>Our Top Players are waiting for your challenge, click the
+                    button below to get started.</p>
+
+                <button class="challenge-btn">Challenge Now</button>
+            </div>
+
+            <div class="rakuto">
+                <div class="wrapper">
+                    <img src="src/images/rakuto.png" alt="Assassin's Creed" class="cover-image">
+                </div>
+
+                <img src="src/images/rakuto2.png" alt="Assassin's Creed" class="character">
+            </div>
+        </div>
+    </section>
+    <!-- =========SUBPAGES BANNER SECTION ======== -->
+
+
+    <section class="play-games container">
+        <h2 class="common-head1" data-aos="fade-right" data-aos-duration="1000">MULTIPLAYER <span>GAMEs</span></h2>
+        <div class="row play-area">
+            <div class="col games" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crazygames.com/game/ludo-king" target="_blank"><img src="src/images/ludo.webp"
+                        alt="Game">
+                    <h4 class="common-head3">Ludo King</h4>
+                </a>
+            </div>
+            <div class="col games" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crazygames.com/game/ludo-king" target="_blank"><img src="src/images/ludo.webp"
+                        alt="Game">
+                    <h4 class="common-head3">Ludo King</h4>
+                </a>
+            </div>
+            <div class="col games" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crazygames.com/game/ludo-king" target="_blank"><img src="src/images/ludo.webp"
+                        alt="Game">
+                    <h4 class="common-head3">Ludo King</h4>
+                </a>
+            </div>
+            <div class="col games" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crazygames.com/game/ludo-king" target="_blank"><img src="src/images/ludo.webp"
+                        alt="Game">
+                    <h4 class="common-head3">Ludo King</h4>
+                </a>
+            </div>
+            <div class="col games" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.crazygames.com/game/ludo-king" target="_blank"><img src="src/images/ludo.webp"
+                        alt="Game">
+                    <h4 class="common-head3">Ludo King</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Content-Section -->
+
+    <!-- Footer Section Starts -->
+    <section class="footer">
+        <div class="container">
+            <!-- icons -->
+            <ul class="example-1" data-aos="fade-up" data-aos-duration="600">
+                <li class="icon-content">
+                    <a class="link" data-social="Twitter" aria-label="Twitter" href="https://twitter.com/?lang=en">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" version="1.1">
+                            <path fill="currentColor"
+                                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                        </svg>
+                    </a>
+                    <div class="tooltip">Twitter</div>
+                </li>
+                <li class="icon-content">
+                    <a class="link" data-social="Youtube" aria-label="Youtube" href="https://www.youtube.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" version="1.1">
+                            <path fill="currentColor"
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+                    </a>
+                    <div class="tooltip">Youtube</div>
+                </li>
+                <li class="icon-content">
+                    <a class="link" data-social="Instagram" aria-label="Instagram" href="https://instagram.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" version="1.1">
+                            <path fill="currentColor"
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                    <div class="tooltip">Instagram</div>
+                </li>
+                <li class="icon-content">
+                    <a class="link" data-social="Discord" aria-label="Discord" href="https://discord.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" cersion="1.1">
+                            <path fill="currentColor"
+                                d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z" />
+                        </svg>
+                    </a>
+                    <div class="tooltip">Discord</div>
+                </li>
+                <li class="icon-content">
+                    <a class="link" data-social="Twitch" aria-label="Twitch" href="https://twitch.tv">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" version="1.1">
+                            <path fill="currentColor"
+                                d="M391.2 103.5H352.5v109.7h38.6zM285 103H246.4V212.8H285zM120.8 0 24.3 91.4V420.6H140.1V512l96.5-91.4h77.3L487.7 256V0zM449.1 237.8l-77.2 73.1H294.6l-67.6 64v-64H140.1V36.6H449.1z" />
+                        </svg>
+                    </a>
+                    <div class="tooltip">Twitch</div>
+                </li>
+            </ul>
+            <!-- icons -->
+            <!-- logo -->
+            <a href="index.html" data-aos="fade-up" data-aos-duration="700">
+                <img src="src/images/Logo2.png" alt="Homepage"></a>
+            <!-- logo -->
+            <!-- T&C -->
+            <p class="common-large-para1" data-aos="fade-up" data-aos-duration="800">© 2024 GameHub, Inc. All Rights
+                Reserved. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Velit, error! </p>
+            <!-- T&C -->
+
+            <!-- Terms and condtions -->
+            <div class="terms">
+                <a href="#">
+                    <p class="common-med-para1" data-aos="fade-up" data-aos-duration="800">PRIVACY POLICY</p>
+                </a>
+                <a href="#">
+                    <p class="common-med-para1" data-aos="fade-up" data-aos-duration="800">TERMS OF SERVICE</p>
+                </a>
+                <a href="#">
+                    <p class="common-med-para1" data-aos="fade-up" data-aos-duration="800">COOKIE PREFRENCES</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section Starts -->
+
+    <!-- JS Script Here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="src/js/main.js"></script>
+    <!-- JS Script Here -->
+</body>
+
+</html>
