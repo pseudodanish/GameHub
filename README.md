@@ -1,4 +1,3 @@
-#-GAMEHUB(HTML)
 "Welcome to GameHub, your ultimate destination for endless gaming fun! Dive into a world of classic games right from your browser with our intuitive and feature-packed gaming platform.
 
 With GameHub, you can enjoy a diverse selection of timeless games like Tic Tac Toe, Snakes and Ladders, and Hangman, all in one convenient place. Whether you're a solo player looking to challenge your skills against intelligent AI opponents or prefer multiplayer matches with friends, GameHub has something for everyone.
